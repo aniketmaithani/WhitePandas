@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-# @Author: aniketmaithani
-# @Date:   2018-12-11 17:10:24
-# @Last Modified by:   Aniket Maithani
-# @Last Modified time: 2018-12-11 20:40:04
-
 # Sort CSV file based on priority and time_to_expire field
 
 import pandas as pd
