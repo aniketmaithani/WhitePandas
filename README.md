@@ -1,4 +1,5 @@
 # WhitePandas
+[![Build Status](https://www.travis-ci.org/aniketmaithani/WhitePandas.svg?branch=master)](https://www.travis-ci.org/aniketmaithani/WhitePandas)
 
 ## Sample Program based on the following problem statement
 
