@@ -14,10 +14,12 @@ def execute_task(time_args, filename):
         i = 0
         current_time = datetime.now()
         timedelta = time.to_pydatetime() - current_time
-        if ((current_time == time.to_pydatetime()) and (timedelta.seconds) > 1):
+        if ((current_time == time.to_pydatetime()) and
+                (timedelta.seconds) > 1):
             os.system(df.event_name[i] + "> /dev/null")
             print("Current Time {} , Event {} processed".format(
-                time.to_pydatetime().strftime('%Y-%m-%d %H:%M'), df.event_name[i]))
+                time.to_pydatetime().strftime('%Y-%m-%d %H:%M'),
+                df.event_name[i]))
             i = i + 1
 
 
