@@ -3,6 +3,7 @@ import sys
 import pandas as pd
 from datetime import datetime
 from helper import begin_from_time
+import time as dt
 
 
 def execute_task(time_args, filename):
@@ -25,4 +26,6 @@ if __name__ == "__main__":
     date_args = sys.argv[2]
     time_args = sys.argv[3]
     date_time_args = '{} {}'.format(date_args, time_args)
-    execute_task(date_time_args, filename)
+    while 1:
+        execute_task(date_time_args, filename)
+        dt.sleep(5)

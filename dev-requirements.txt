@@ -2,3 +2,4 @@
 -r requirements.txt
 ipdb==0.11
 ipython==7.2.0
+pytest==4.0.1
